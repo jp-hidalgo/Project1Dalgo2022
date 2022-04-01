@@ -81,7 +81,7 @@ def crearTorres(texto):
         esfuerzos = []
         portales = []
         while lineaActual < total:
-            if len(base) < 3:
+            if len(base) < 2:
                 base.append(texto[lineaActual][0])
                 base.append(texto[lineaActual][1])
                 totalPortales = texto[lineaActual][2]
