@@ -48,12 +48,13 @@ def menosEsfuerzo(torre):
 def interaccion():
     texto = []
     while True:
-        linea = input()
-        if linea == "":
-            break
-        if linea:
-            texto.append(linea)   
-        else:
+        try:
+            linea = input()
+            if linea:
+                texto.append(linea)   
+            else:
+                break
+        except EOFError:
             break
     casos = crearTorres(texto)
     totalCasos = len(casos)
