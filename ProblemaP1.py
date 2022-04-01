@@ -49,8 +49,10 @@ def interaccion():
     texto = []
     while True:
         linea = input()
+        if linea == "":
+            break
         if linea:
-            texto.append(linea)
+            texto.append(linea)   
         else:
             break
     casos = crearTorres(texto)
