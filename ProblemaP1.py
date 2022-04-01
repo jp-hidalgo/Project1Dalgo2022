@@ -2,7 +2,7 @@
 # Universidad de los Andes
 # Diseño y Análisis de Algoritmos
 # Proyecto Final Entrega 1
-# Miguel Sandoval y Tales Losada
+# Miguel Sandoval , Tales Losada y Juan Pablo Hidalgo
 
 
 #Función que calcula el esfuerzo mínimo al último cuarto del último piso
